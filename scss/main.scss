@@ -1,5 +1,6 @@
 @import 'config';
 @import 'menu';
+@import 'mobile';
 
 * {
   box-sizing: border-box;
@@ -73,5 +74,3 @@ main {
     }
   }
 }
-
-// TODO:  Make font size of name smaller in media sm
