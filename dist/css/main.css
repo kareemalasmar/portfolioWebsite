@@ -148,7 +148,7 @@ header {
   color: #00e2ff; }
 
 main {
-  padding: 4rem;
+  padding: 3rem;
   min-height: calc(100vh - 60px); }
   main .icons {
     font-size: 3rem;
@@ -217,6 +217,8 @@ main {
       background: #00e2ff;
       color: #000; }
       .boxes div:hover span {
+        color: #000; }
+      .boxes div:hover i {
         color: #000; }
 
 .btn, .btn-dark, .btn-light {

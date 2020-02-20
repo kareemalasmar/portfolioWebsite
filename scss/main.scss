@@ -49,9 +49,7 @@ header {
 }
 
 main {
-  // consider changing padding to 2rem
-  padding: 4rem;
-  // height: 100%;
+  padding: 3rem;
   min-height: calc(100vh - 60px);
 
   .icons {
@@ -60,7 +58,6 @@ main {
 
     a {
       padding: 0.4rem;
-      // Test
       color: set-text-color($primary-color);
 
       &:hover {
@@ -156,6 +153,10 @@ main {
       color: set-text-color($secondary-color);
 
       span {
+        color: set-text-color($secondary-color);
+      }
+
+      i {
         color: set-text-color($secondary-color);
       }
     }
